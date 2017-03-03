@@ -41,7 +41,7 @@ public class ReverseStackRecursive {
 			stack.push(ele);
 		}else{
 			Integer top=stack.pop();
-			addToBottom(stack,ele);//important
+			addToBottom(stack,ele);//important,注意不是传入top,而是ele
 			System.err.print("放入元素: "+ele+" ");
 			stack.push(top);
 		}
