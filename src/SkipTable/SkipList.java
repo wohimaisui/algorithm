@@ -125,7 +125,7 @@ public class SkipList <T>{
     private void vertiacallLink(SkipListNode<T> node1,SkipListNode<T> node2){
         node1.down=node2;
         node2.up=node1;
-    }
+    }                                        
     /**
      * 打印出原始数据
      * */
